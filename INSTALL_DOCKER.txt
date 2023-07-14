@@ -1,0 +1,8 @@
+Step 1: use docker build ie on this directory to start building an image using ubuntu as a base with the system dependencies installed.
+Step 2: run sudo ./start_docker to access the image with this directory mounted on /pokeemerald.
+Step 3: on pokeemerald, run 
+        git clone https://github.com/pret/agbcc #to clone agbcc
+        cd agbcc #enter the new directory
+        ./build.sh #build it
+        ./install.sh .. #install
+Step 4: after that you should be able to run make on /pokeemerald to build the rom.
